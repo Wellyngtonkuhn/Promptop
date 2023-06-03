@@ -1,4 +1,4 @@
-# Promptop Project
+# Promptopia Project
 
 ## Through this project I was able to study some of the updates of the next js 13 like:
 
