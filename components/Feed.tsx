@@ -2,8 +2,6 @@
 import { useState, useEffect } from "react";
 import PromptCard from "./PromptCard";
 
-
-
 const PromptCardList = ({ data, handleTagClick }) => {
   return (
     <div className="mt-16 prompt_layout">
@@ -37,7 +35,7 @@ export default function Feed() {
     fetchPosts();
   }, []);
 
-  const filterPrompts = (searchtext : string) => {
+  const filterPrompts = (searchtext: string) => {
     const regex = new RegExp(searchtext, "i"); // 'i' flag for case-insensitive search
     return allPosts.filter(
       (item) =>
@@ -47,7 +45,7 @@ export default function Feed() {
     );
   };
 
-  const handleSearchChange = (e : any) => {
+  const handleSearchChange = (e: any) => {
     clearTimeout(searchTimeout);
     setSearchText(e.target.value);
 

@@ -7,14 +7,6 @@ import { connectToDB } from "@utils/database";
 const GOOGLE_ID = process.env.GOOGLE_ID as string;
 const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET as string;
 
-type UserProfile = {
-  profile: {
-    email: string;
-    name: string;
-    picture: string;
-  };
-};
-
 const handler = NextAuth({
   providers: [
     GoogleProvider({

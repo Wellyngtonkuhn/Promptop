@@ -10,7 +10,7 @@ export default function PromptCard({
   handleEdit,
   handleDelete,
   handleTagClick,
-}) {
+}: any) {
   const { data: session } = useSession();
   const pathName = usePathname();
   const router = useRouter();

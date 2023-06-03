@@ -1,3 +1,11 @@
-# Todo
+# Promptop Project
 
-[] Fazer a verificar da sessão no lado do servidor
+## Through this project I was able to study some of the updates of the next js 13 like:
+
+    - SEO
+    - ROUNTING
+    - NEXT API 'BACKEND'
+    - NEXT AUTH 
+    - METADATA
+    - PATTERNS
+    - RENDERING
